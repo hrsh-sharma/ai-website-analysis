@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="8" fill="#080e1a"/>
+
+  <!-- Bar chart bars (BarChart2 style) -->
+  <!-- Left bar -->
+  <rect x="5" y="18" width="5" height="9" rx="1.5" fill="#3b82f6"/>
+  <!-- Middle bar (tallest) -->
+  <rect x="13.5" y="10" width="5" height="17" rx="1.5" fill="#60a5fa"/>
+  <!-- Right bar -->
+  <rect x="22" y="14" width="5" height="13" rx="1.5" fill="#3b82f6"/>
+
+  <!-- Trend line dot -->
+  <circle cx="7.5" cy="15" r="1.5" fill="#34d399"/>
+  <circle cx="16" cy="7.5" r="1.5" fill="#34d399"/>
+  <circle cx="24.5" cy="11" r="1.5" fill="#34d399"/>
+  <!-- Connecting lines -->
+  <line x1="7.5" y1="15" x2="16" y2="7.5" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.7"/>
+  <line x1="16" y1="7.5" x2="24.5" y2="11" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.7"/>
+</svg>
